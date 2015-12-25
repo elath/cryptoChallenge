@@ -1,3 +1,3 @@
-!#/bin/bash
+#!/bin/bash
 
-clang -v base64.c -o base64
+clang -Weverything -I"/home/bklippenstein/work/cryptoChallenge/include" base64.c hextools.c -o base64
